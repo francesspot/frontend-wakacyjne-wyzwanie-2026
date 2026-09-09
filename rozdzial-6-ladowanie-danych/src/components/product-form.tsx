@@ -67,7 +67,7 @@ export default function ProductForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mb-8 rounded-lg border p-6 shadow-sm"
+      className="mb-8 max-w-md rounded-lg border p-6 shadow-sm"
     >
       <h2 className="mb-4 text-xl font-bold">Dodaj nowy produkt</h2>
 
