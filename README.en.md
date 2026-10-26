@@ -1,59 +1,23 @@
-[Polski](README.md) | **English**
+🇵🇱 [Polski](README.md) | 🇬🇧 **English**
 
-# Summer Challenge 2026 — Frontend
+# 🎨 Next.js Frontend — Summer Challenge 2026
 
-## About the course
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 
-The Summer Challenge (*Wakacyjne Wyzwanie*) is an internal course of the **KN Solvro** student research group, in which participants learn modern web frontend development step by step, based on **Next.js**, **TypeScript** and **Tailwind CSS**. The course is run by members of the frontend section through weekly lectures and practical tasks — from the basics up to advanced topics such as routing, data fetching and page rendering.
+> 🎓 Frontend track of the **Summer Challenge 2026** (*Wakacyjne Wyzwanie*) run by the **KN Solvro** student research group (Wrocław University of Science and Technology)
 
-## My solutions
+7 weeks, 7 tasks — from a first React component to static vs dynamic rendering and SEO. 🚀 Each task lives on its own branch.
 
-Each task is on its own branch. The `main` branch contains the course materials.
+## 🪜 My tasks
 
-| Chapter | Branch | What I built |
-|---------|--------|--------------|
-| 1 | [`feat/franciszek-pora-1`](../../tree/feat/franciszek-pora-1) | A `ProjectCard` React component |
-| 2 | [`feat/franciszek-pora-pierwszy-projekt`](../../tree/feat/franciszek-pora-pierwszy-projekt) | My first Next.js project styled with Tailwind CSS |
-| 3 | [`feat/franciszek-pora-komponenty`](../../tree/feat/franciszek-pora-komponenty) | A `TeamMemberCard` component using `next/image`, `next/link` and other Next.js components |
-| 4 | [`feat/franciszek-pora-routing`](../../tree/feat/franciszek-pora-routing) | A user list with profile pages: nested layouts, `loading`/`error`/`not-found` states, and a profile **modal** built with parallel and intercepting routes |
-| 5 | [`franciszek-pora-shadcn`](../../tree/franciszek-pora-shadcn) | The user list rebuilt with **shadcn/ui** (cards, dialog, tabs, skeletons) plus a light/dark mode toggle |
-| 6 | [`feat/franciszek-pora-tanstack`](../../tree/feat/franciszek-pora-tanstack) | A product list and form using **TanStack Query** (client-side fetching and mutations) |
-| 7 | [`franciszek-pora-dynamic`](../../tree/franciszek-pora-dynamic) | A "rendering lab" comparing **static, dynamic and ISR** pages, product pages, search, plus `sitemap.ts` and `robots.ts` for SEO |
+| | Branch | What I built |
+|---|---|---|
+| 1️⃣ | [`feat/franciszek-pora-1`](../../tree/feat/franciszek-pora-1) | A `ProjectCard` component in React + TypeScript |
+| 2️⃣ | [`feat/franciszek-pora-pierwszy-projekt`](../../tree/feat/franciszek-pora-pierwszy-projekt) | My first **Next.js** project styled with **Tailwind** |
+| 3️⃣ | [`feat/franciszek-pora-komponenty`](../../tree/feat/franciszek-pora-komponenty) | A `TeamMemberCard` with `next/image`, `next/link` and `next/font` |
+| 4️⃣ | [`feat/franciszek-pora-routing`](../../tree/feat/franciszek-pora-routing) | 🧭 User list and profiles: **App Router**, `loading` / `error` / `not-found` states and a **modal** built with parallel + intercepting routes |
+| 5️⃣ | [`franciszek-pora-shadcn`](../../tree/franciszek-pora-shadcn) | UI rebuilt with **shadcn/ui** (cards, dialog, tabs, skeletons) + 🌗 light/dark mode |
+| 6️⃣ | [`feat/franciszek-pora-tanstack`](../../tree/feat/franciszek-pora-tanstack) | Product list and form with **TanStack Query** (queries and mutations) |
+| 7️⃣ | [`franciszek-pora-dynamic`](../../tree/franciszek-pora-dynamic) | 🧪 A "rendering lab" — **static, dynamic and ISR** pages, search, `sitemap` and `robots` for **SEO** |
 
-## Prerequisites
-
-- Basic knowledge of HTML and CSS
-- Basic knowledge of JavaScript (variables, functions, conditions, loops)
-- Installed: [Node.js](https://nodejs.org/) (LTS), [Git](https://git-scm.com/), a code editor (recommended: [VS Code](https://code.visualstudio.com/))
-- A [GitHub](https://github.com/) account
-
-## Chapters — course scope
-
-| # | Chapter | Scope |
-|---|---------|-------|
-| 1 | [Introduction](./rozdzial-1-wstep) | Course organisation, Git/GitHub, TypeScript, React |
-| 2 | [First project](./rozdzial-2-pierwszy-projekt) | Creating a Next.js project, Tailwind CSS basics |
-| 3 | [Next.js components](./rozdzial-3-komponenty-nextowe) | `next/image`, `next/link`, `next/font`, `next/script` |
-| 4 | [Routing](./rozdzial-4-routing) | App Router, `layout`/`page`/`loading`/`error`, parallel routes |
-| 5 | [Shadcn and UI](./rozdzial-5-shadcn-i-ui) | UI best practices, Shadcn, advanced Tailwind CSS |
-| 6 | [Data loading](./rozdzial-6-ladowanie-danych) | Client/server components, server-side and client-side fetching (React Query) |
-| 7 | [Static vs dynamic](./rozdzial-7-static-vs-dynamic) | Static vs dynamic rendering, SEO and metadata |
-
-Each chapter is run by 2 people — one prepares and gives the lecture (presentation + discussion), the other prepares the practical task(s) for the topic.
-
-## Participation rules
-
-- Classes (lecture + task) take place once a week for 7 weeks of the summer holidays.
-- Each chapter is run by a 2-person team: one person is responsible for the lecture (presentation + discussion of the topic), the other for preparing the task(s).
-- Materials (presentation, recording, task description) are uploaded to the chapter's folder in this repository.
-- Solutions are submitted as a Pull Request to this repository (to the branch/folder given in the task description), with a short description of what was done.
-- Tasks are submitted by the deadline given for each chapter — in case of problems or delays, let the chapter's hosts know.
-- Questions and doubts should be raised as they come up — preferably on the course channel on the Solvro Discord or in this repository's Issues.
-
-## Links
-
-- Solvro website: [solvro.pwr.edu.pl](https://solvro.pwr.edu.pl/)
-- Facebook: [facebook.com/knsolvro](https://www.facebook.com/knsolvro)
-- LinkedIn: [linkedin.com/company/knsolvro](https://www.linkedin.com/company/knsolvro)
-- GitHub: [github.com/Solvro](https://github.com/Solvro)
-- E-mail: [kn.solvro@pwr.edu.pl](mailto:kn.solvro@pwr.edu.pl)
+The `main` branch holds the course materials.
