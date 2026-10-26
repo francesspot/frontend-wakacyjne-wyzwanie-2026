@@ -1,8 +1,24 @@
+**Polski** | [English](README.en.md)
+
 # Wakacyjne Wyzwanie 2026 - Frontend
 
 ## O kursie
 
 Wakacyjne Wyzwanie to wewnętrzny kurs KN Solvro, w ramach którego uczestnicy krok po kroku poznają nowoczesny frontend webowy oparty o **Next.js**, **TypeScript** i **Tailwind CSS**. Kurs prowadzony jest przez członków sekcji frontend - w formie cotygodniowych wykładów i zadań praktycznych, od podstaw aż po zaawansowane zagadnienia związane z routingiem, pobieraniem danych i renderowaniem stron.
+
+## Moje rozwiązania
+
+Każde zadanie jest na osobnej gałęzi. Gałąź `main` zawiera materiały kursu.
+
+| Rozdział | Gałąź | Co zrobiłem |
+|----------|-------|-------------|
+| 1 | [`feat/franciszek-pora-1`](../../tree/feat/franciszek-pora-1) | Komponent Reacta `ProjectCard` |
+| 2 | [`feat/franciszek-pora-pierwszy-projekt`](../../tree/feat/franciszek-pora-pierwszy-projekt) | Mój pierwszy projekt w Next.js ostylowany Tailwind CSS |
+| 3 | [`feat/franciszek-pora-komponenty`](../../tree/feat/franciszek-pora-komponenty) | Komponent `TeamMemberCard` z użyciem `next/image`, `next/link` i innych komponentów Next.js |
+| 4 | [`feat/franciszek-pora-routing`](../../tree/feat/franciszek-pora-routing) | Lista użytkowników ze stronami profili: zagnieżdżone layouty, stany `loading`/`error`/`not-found` oraz **modal** profilu zbudowany na parallel i intercepting routes |
+| 5 | [`franciszek-pora-shadcn`](../../tree/franciszek-pora-shadcn) | Lista użytkowników przebudowana z **shadcn/ui** (karty, dialog, zakładki, skeletony) oraz przełącznik trybu jasnego/ciemnego |
+| 6 | [`feat/franciszek-pora-tanstack`](../../tree/feat/franciszek-pora-tanstack) | Lista produktów i formularz z użyciem **TanStack Query** (pobieranie danych i mutacje po stronie klienta) |
+| 7 | [`franciszek-pora-dynamic`](../../tree/franciszek-pora-dynamic) | „Rendering lab" porównujący strony **statyczne, dynamiczne i ISR**, strony produktów, wyszukiwarka oraz `sitemap.ts` i `robots.ts` pod SEO |
 
 ## Wymagane umiejętności/narzędzia na wstępie
 
