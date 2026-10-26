@@ -6,18 +6,18 @@
 
 > 🎓 Ścieżka frontendowa **Wakacyjnego Wyzwania 2026** koła naukowego **KN Solvro** (Politechnika Wrocławska)
 
-7 tygodni, 7 zadań — od pierwszego komponentu Reacta po renderowanie statyczne, dynamiczne i SEO. 🚀 Każde zadanie jest na osobnej gałęzi.
+Siedem zadań realizowanych co tydzień — od pierwszego komponentu Reacta po renderowanie statyczne i dynamiczne oraz SEO. Każde zadanie jest na osobnej gałęzi.
 
 ## 🪜 Moje zadania
 
-| | Gałąź | Co zbudowałem |
+| # | Gałąź | Co zbudowałem |
 |---|---|---|
-| 1️⃣ | [`feat/franciszek-pora-1`](../../tree/feat/franciszek-pora-1) | Komponent `ProjectCard` w React + TypeScript |
-| 2️⃣ | [`feat/franciszek-pora-pierwszy-projekt`](../../tree/feat/franciszek-pora-pierwszy-projekt) | Pierwszy projekt w **Next.js** ostylowany **Tailwindem** |
-| 3️⃣ | [`feat/franciszek-pora-komponenty`](../../tree/feat/franciszek-pora-komponenty) | Karta `TeamMemberCard` z `next/image`, `next/link` i `next/font` |
-| 4️⃣ | [`feat/franciszek-pora-routing`](../../tree/feat/franciszek-pora-routing) | 🧭 Lista użytkowników i profile: **App Router**, stany `loading` / `error` / `not-found` i **modal** na parallel + intercepting routes |
-| 5️⃣ | [`franciszek-pora-shadcn`](../../tree/franciszek-pora-shadcn) | Przebudowa UI na **shadcn/ui** (karty, dialog, zakładki, skeletony) + 🌗 tryb jasny/ciemny |
-| 6️⃣ | [`feat/franciszek-pora-tanstack`](../../tree/feat/franciszek-pora-tanstack) | Lista produktów i formularz z **TanStack Query** (zapytania i mutacje) |
-| 7️⃣ | [`franciszek-pora-dynamic`](../../tree/franciszek-pora-dynamic) | 🧪 „Rendering lab” — strony **statyczne, dynamiczne i ISR**, wyszukiwarka, `sitemap` i `robots` pod **SEO** |
+| 1 | [`feat/franciszek-pora-1`](../../tree/feat/franciszek-pora-1) | Komponent `ProjectCard` w React + TypeScript |
+| 2 | [`feat/franciszek-pora-pierwszy-projekt`](../../tree/feat/franciszek-pora-pierwszy-projekt) | Pierwszy projekt w **Next.js** ostylowany **Tailwindem** |
+| 3 | [`feat/franciszek-pora-komponenty`](../../tree/feat/franciszek-pora-komponenty) | Karta `TeamMemberCard` z `next/image`, `next/link` i `next/font` |
+| 4 | [`feat/franciszek-pora-routing`](../../tree/feat/franciszek-pora-routing) | Lista użytkowników i profile: **App Router**, stany `loading` / `error` / `not-found` i **modal** na parallel + intercepting routes |
+| 5 | [`franciszek-pora-shadcn`](../../tree/franciszek-pora-shadcn) | Przebudowa UI na **shadcn/ui** (karty, dialog, zakładki, skeletony) + tryb jasny/ciemny |
+| 6 | [`feat/franciszek-pora-tanstack`](../../tree/feat/franciszek-pora-tanstack) | Lista produktów i formularz z **TanStack Query** (zapytania i mutacje) |
+| 7 | [`franciszek-pora-dynamic`](../../tree/franciszek-pora-dynamic) | „Rendering lab” — strony **statyczne, dynamiczne i ISR**, wyszukiwarka, `sitemap` i `robots` pod **SEO** |
 
 Gałąź `main` zawiera materiały z kursu.
